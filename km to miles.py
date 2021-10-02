@@ -1,6 +1,9 @@
-def kilometre_1(km):  
-    conversion_ratio_1= 0.621371  
-    miles_1 = km * conversion_ratio_1  
-    print ("The speed value of car in Miles: ", miles_1)  
-km = float (input ("Please enter the speed of car in Kilometre as a unit: "))  
-kilometre_1(km)  
+km = int(input("Enter the value in kilometers: "))
+
+# 1 Kilometre = 0.621371 Mile
+ratio = 0.621371
+
+# Converting km to mi.
+mi = km * ratio
+
+print("The entered value in Miles: ", mi)
