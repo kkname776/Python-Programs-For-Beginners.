@@ -1,11 +1,14 @@
-P = int( input("Please enter value for P: "))  
-Q = int( input("Please enter value for Q: "))  
-   
-# To swap the value of two variables  
-# we will user third variable which is a temporary variable  
-temp_1 = P  
-P = Q  
-Q = temp_1  
-   
-print ("The Value of P after swapping: ", P)  
-print ("The Value of Q after swapping: ", Q)  
+# Python program to demonstrate
+# swapping of two variables
+
+x = 10
+y = 50
+
+# Swapping of two variables
+# Using third variable
+temp = x
+x = y
+y = temp
+
+print("Value of x:", x)
+print("Value of y:", y)
